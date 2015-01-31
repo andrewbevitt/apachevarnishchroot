@@ -396,7 +396,7 @@ The new site $domain for user $username has been created.
 If this site uses SSL you will need to install certificates.
 
 You now need to upload files to the document root.
-If you're installing wordpress:
+If you’re installing WordPress:
  usersite.sh wordpress $username $domain <dbname> <dbprefix> [<dbhost>]
 
 Once the site is ready:
@@ -612,7 +612,7 @@ elif [ "$1" == "wordpress" ]; then
 	cat << EOF
 
 === WORDPRESS INSTALL ===
-You're about to install WordPress into:
+You’re about to install WordPress into:
   $INSTALL_PATH
 
 A mysql user '$username' will be created with all privileges for database '$dbname'
